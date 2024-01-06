@@ -1,0 +1,7 @@
+<suite name="this is master suite">
+ <suite-files>
+  <suite-file path="Testfirst.xml"></suite-file>
+  <suite-file path="GroupTest.xml"></suite-file>
+ </suite-files>
+
+</suite>

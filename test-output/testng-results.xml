@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-05T21:49:36 IST" name="First Testing" finished-at="2024-01-05T21:49:37 IST" duration-ms="140">
+    <groups>
+      <group name="expracion">
+        <method signature="Testing.Group()[pri:0, instance:com.testingex.Testing@13e344d]" name="Group" class="com.testingex.Testing"/>
+        <method signature="Testing2.Group()[pri:0, instance:com.testingex.Testing2@1a6d8329]" name="Group" class="com.testingex.Testing2"/>
+      </group> <!-- expracion -->
+      <group name="regular">
+        <method signature="Testing.Group()[pri:0, instance:com.testingex.Testing@13e344d]" name="Group" class="com.testingex.Testing"/>
+        <method signature="Testing2.Group()[pri:0, instance:com.testingex.Testing2@1a6d8329]" name="Group" class="com.testingex.Testing2"/>
+      </group> <!-- regular -->
+    </groups>
+    <test started-at="2024-01-05T21:49:36 IST" name="Functional test" finished-at="2024-01-05T21:49:37 IST" duration-ms="140">
+      <class name="com.testingex.Testing2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:36 IST" name="beforeTest" finished-at="2024-01-05T21:49:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="BeforeClass" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="Group()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="Group" finished-at="2024-01-05T21:49:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Group -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="beforeMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="afterMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="add()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="add" finished-at="2024-01-05T21:49:37 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="beforeMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="afterMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="beforeMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getParameterFromXML(java.lang.String,java.lang.String)[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="getParameterFromXML" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alok Anand]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getParameterFromXML -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="afterMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="AfterClass" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.testingex.Testing2@1a6d8329]" started-at="2024-01-05T21:49:37 IST" name="AfterTest" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.testingex.Testing2 -->
+      <class name="com.testingex.SkipTestExample">
+        <test-method signature="skiptestsecondmethod()[pri:0, instance:com.testingex.SkipTestExample@1a942c18]" started-at="2024-01-05T21:49:37 IST" name="skiptestsecondmethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[================================================we have skip method===]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: ================================================we have skip method===
+at com.testingex.SkipTestExample.skiptestsecondmethod(SkipTestExample.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skiptestsecondmethod -->
+      </class> <!-- com.testingex.SkipTestExample -->
+      <class name="com.testingex.Commanex">
+        <test-method is-config="true" signature="testData()[pri:0, instance:com.testingex.Commanex@4145bad8]" started-at="2024-01-05T21:49:36 IST" name="testData" finished-at="2024-01-05T21:49:36 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method signature="getdataset(java.lang.String,java.lang.String)[pri:0, instance:com.testingex.Commanex@4145bad8]" started-at="2024-01-05T21:49:37 IST" name="getdataset" data-provider="create" finished-at="2024-01-05T21:49:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdataset -->
+        <test-method signature="getdataset(java.lang.String,java.lang.String)[pri:0, instance:com.testingex.Commanex@4145bad8]" started-at="2024-01-05T21:49:37 IST" name="getdataset" data-provider="create" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alok1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdataset -->
+      </class> <!-- com.testingex.Commanex -->
+      <class name="com.testingex.Testing">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:36 IST" name="beforeTest" finished-at="2024-01-05T21:49:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:36 IST" name="BeforeClass" finished-at="2024-01-05T21:49:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="beforeMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Group()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="Group" finished-at="2024-01-05T21:49:37 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Group -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="afterMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="beforeMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="add()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="add" finished-at="2024-01-05T21:49:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="afterMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="test" data-provider="dynamic" finished-at="2024-01-05T21:49:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="beforeMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="afterMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="beforeMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="test" data-provider="dynamic" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alok1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="afterMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="beforeMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="test1" data-provider="extrinlize" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="afterMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="test1" data-provider="extrinlize" finished-at="2024-01-05T21:49:37 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alok1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="beforeMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="afterMethod" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="AfterClass" finished-at="2024-01-05T21:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.testingex.Testing@13e344d]" started-at="2024-01-05T21:49:37 IST" name="AfterTest" finished-at="2024-01-05T21:49:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.testingex.Testing -->
+    </test> <!-- Functional test -->
+  </suite> <!-- First Testing -->
+</testng-results>

@@ -1,0 +1,16 @@
+<suite name="First Testing">
+<test name="Functional test">
+    <parameter name="browser" value="Chrome">
+    </parameter>
+    <parameter name="sendername" value="Alok Anand">
+    </parameter>
+  
+  <classes>
+    <class name="com.testingex.Testing"/>
+    <class name="com.testingex.Testing2"/>
+    <class name="com.testingex.SkipTestExample"/>
+    <class name="com.testingex.Commanex"/>
+    
+  </classes>
+</test>
+</suite>

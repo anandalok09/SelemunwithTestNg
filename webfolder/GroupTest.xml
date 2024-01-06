@@ -1,0 +1,16 @@
+<suite name="First Testing">
+<test name="Functional test">
+  <groups>
+    <run>
+    <include name="expracion">
+    </include>
+    </run>
+  </groups>
+  
+  <classes>
+    <class name="com.testingex.Testing"/>
+    <class name="com.testingex.Testing2"/>
+   
+  </classes>
+</test>
+</suite>
